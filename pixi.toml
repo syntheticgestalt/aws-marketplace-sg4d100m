@@ -1,0 +1,18 @@
+[workspace]
+authors = ["yhori <yhori991@gmail.com>"]
+channels = ["conda-forge"]
+name = "aws-marketplace-sg4d100m"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+notebook = ">=7.4.3,<8"
+
+[feature.dev.dependencies]
+ipykernel = "*"
+
+[environments]
+default = ["dev"]
+prod = []

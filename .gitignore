@@ -1,0 +1,17 @@
+# Ignore all files/folders
+*
+# Don't ignore any files/folders if the parent folder is 'un-ignored'
+# This also avoids warnings when adding an already-checked file with an ignored parent.
+!/**/
+# whitelist
+!/.vscode/**
+!/.gitignore
+!/pixi.lock
+!/pixi.toml
+!/pyproject.toml
+!/README.md
+!/shell.nix
+
+# pixi environments
+.pixi
+*.egg-info
