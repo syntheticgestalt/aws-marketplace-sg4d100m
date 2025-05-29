@@ -4,14 +4,10 @@
 # This also avoids warnings when adding an already-checked file with an ignored parent.
 !/**/
 # whitelist
-!/.vscode/**
 !/.gitignore
+!/docs/**
 !/pixi.lock
 !/pixi.toml
 !/pyproject.toml
 !/README.md
 !/shell.nix
-
-# pixi environments
-.pixi
-*.egg-info
